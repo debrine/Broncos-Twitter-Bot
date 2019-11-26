@@ -28,6 +28,8 @@ root = ElementTree.fromstring(live_data.content)
 #access proper subchild 
 games = root[0]
 
+
+
 #find the data for the broncos game 
 
 for game in games.iter():
